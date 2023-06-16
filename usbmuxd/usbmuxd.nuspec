@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>usbmuxd</id>
+    <version>$version$</version>
+    <authors>libimobiledevice, Quamotion</authors>
+    <owners>Quamotion</owners>
+    <title>iOS USB Multiplexor Daemon (usbmuxd)</title>
+    <description>A socket daemon to multiplex connections from and to iOS devices (usbmuxd).</description>
+    <projectUrl>https://github.com/libimobiledevice-win32/usbmuxd</projectUrl>
+    <licenseUrl>https://github.com/libimobiledevice-win32/usbmuxd/master/COPYING.GPLv2</licenseUrl>
+    <tags>ios usb usbmuxd</tags>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="Win32\Release\usbmuxd.exe" target="runtimes\win7-x86\native\" />
+    <file src="Win32\Release\libusb-1.0.dll" target="runtimes\win7-x86\native\" />
+    <file src="Win32\Release\libusb0_x86.dll" target="runtimes\win7-x86\native\" />
+    <file src="ext\libusbK-3.0.7.0-bin\bin\dll\x86\libusbK.dll" target="runtimes\win7-x86\native\" />
+    <file src="packages\fix8.dependencies.getopt.1.0.20151130.1\build\native\bin\Win32\v140\Release\Desktop\getopt.dll" target="runtimes\win7-x86\native\" />
+    <file src="packages\pthreads.redist.2.9.1.4\build\native\bin\v110\Win32\Release\dynamic\cdecl\libpthread.dll" target="runtimes\win7-x86\native\" />
+    <file src="packages\libiconv.redist.1.14.0.11\build\native\bin\v110\Win32\Release\dynamic\cdecl\libiconv.dll" target="runtimes\win7-x86\native\" />
+    <file src="packages\zlib.redist.1.2.8.7\build\native\bin\v110\Win32\Release\dynamic\cdecl\zlib.dll" target="runtimes\win7-x86\native\" />
+
+    <file src="x64\Release\usbmuxd.exe" target="runtimes\win7-x64\native\" />
+    <file src="x64\Release\libusb-1.0.dll" target="runtimes\win7-x64\native\" />
+    <file src="x64\Release\libusb0.dll" target="runtimes\win7-x64\native\" />
+    <file src="ext\libusbK-3.0.7.0-bin\bin\dll\amd64\libusbK.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\fix8.dependencies.getopt.1.0.20151130.1\build\native\bin\x64\v140\Release\Desktop\getopt.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\pthreads.redist.2.9.1.4\build\native\bin\v110\x64\Release\dynamic\cdecl\libpthread.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\libiconv.redist.1.14.0.11\build\native\bin\v110\x64\Release\dynamic\cdecl\libiconv.dll" target="runtimes\win7-x64\native\" />
+    <file src="packages\zlib.redist.1.2.8.7\build\native\bin\v110\x64\Release\dynamic\cdecl\zlib.dll" target="runtimes\win7-x64\native\" />
+  </files>
+</package>
